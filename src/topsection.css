@@ -1,0 +1,51 @@
+@media (max-width: 640px) {
+  .responsiveness {
+    width: 100%;
+    height: auto;
+    margin-top: -40px; /* Adjust height for mobile */
+  }
+
+  .hidden-img {
+    display: none; /* Hide the background image */
+  }
+
+  .text-wrapper {
+    margin-top: 70px;
+    gap: 9px;
+    width: 50%;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+    gap: 12px; /* Adjust spacing between text elements */
+  }
+
+  .heading-text {
+    font-size: 1rem; /* Adjust heading size */
+    line-height: 1.5;
+    color: black;
+  }
+
+  .paragraph-text {
+    font-size: 1rem; /* Adjust paragraph font size */
+    line-height: 1.4;
+    color: black;
+  }
+
+  .action-btn {
+    width: 70%;
+    padding: 15px 20px;
+    margin: 0 auto; /* Center the button */
+  }
+
+  .video-content {
+    margin-top: 17px; /* Add spacing above the video */
+    justify-content: center;
+    padding-right: 0; /* Remove extra padding */
+    padding-bottom: 0;
+  }
+
+  .video-content video {
+    width: auto; /* Adjust video width */
+    height: 250px; /* Maintain aspect ratio */
+  }
+}
