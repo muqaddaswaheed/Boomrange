@@ -1224,6 +1224,10 @@ video {
     grid-column: span 1 / span 1;
   }
 
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
   .lg\:ml-48 {
     margin-left: 12rem;
   }
@@ -1236,16 +1240,8 @@ video {
     margin-top: 15px;
   }
 
-  .lg\:ml-0 {
-    margin-left: 0px;
-  }
-
   .lg\:w-\[43\%\] {
     width: 43%;
-  }
-
-  .lg\:w-\[60\%\] {
-    width: 60%;
   }
 
   .lg\:w-\[50\%\] {
@@ -1254,10 +1250,6 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:items-start {
-    align-items: flex-start;
   }
 
   .lg\:gap-10 {
