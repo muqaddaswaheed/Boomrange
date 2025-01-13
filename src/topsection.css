@@ -48,4 +48,11 @@
     width: auto; /* Adjust video width */
     height: 250px; /* Maintain aspect ratio */
   }
+  @media (max-width: 425px){
+    .action-btn {
+      width: 100%;
+      padding: 15px 5px;
+      margin: 0 auto; /* Center the button */
+    }
+  }
 }
