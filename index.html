@@ -17,12 +17,12 @@
       <!----------------------------------- Vedio Sec ---------------------------------->
 
     <!-- Section Container -->
-    <div class="responsiveness h-[70vh] w-[90%]  m-auto relative overflow-hidden">
+    <div class="responsiveness h-[80vh] w-[90%]  m-auto relative overflow-hidden">
       <!-- Background Image -->
       <img
         src="/Assets/Pics/Subtract.png"
         alt="Background"
-        class="absolute inset-0 w-full object-cover z-0 hidden-img"
+        class="absolute sm:inset-2  md:inset-0 w-full object-cover z-0 hidden-img"
       />
     
       <!-- Content Wrapper -->
@@ -31,24 +31,24 @@
       >
         <!-- Text Content -->
         <div
-          class="text-center md:text-left lg:mt-12 md:mt-[-60px] flex flex-col md:gap-4  md:w-[60%] lg:gap-9 lg:w-[43%] lg:ml-48 md:ml-10 text-white text-sec text-wrapper"
+          class="text-center sm:text-center sm:mt-5 sm:gap-1 sm:pl-5  md:text-left lg:mt-12 md:mt-[-60px] flex flex-col md:gap-4  md:w-[60%] lg:gap-9 lg:w-[43%] lg:ml-48 md:ml-16 text-white text-sec text-wrapper"
         >
-          <h1 class="lg:text-3xl md:text-lg font-bold heading-text">
+          <h1 class="lg:text-3xl sm:text-base md:text-lg font-bold heading-text">
             Powerful email features, an AI voice assistant, and intuitive gestures.
           </h1>
           <p class="lg:text-lg md:text-sm paragraph-text">
             All available in Boomerang for iPhone.
           </p>
           <button
-            class="text-center px-[13px] lg:py-[12px] md:hidden lg:block lg:w-[60%] md:w-[60%] rounded-md bg-red-600 text-white hover:bg-red-700 action-btn"
+            class="text-center px-[13px] sm:w-[50%] md:w-[80%]  sm:mx-auto md:py-[8px] lg:py-[12px]  lg:block rounded-md bg-red-600 text-white hover:bg-red-700 action-btn"
           >
             Get Boomerang on iOS
           </button>
         </div>
     
         <!-- Video/Image Content -->
-        <div class="sm:mt-0 sm:w-1/2 flex justify-center pr-20 pb-10 video-content">
-          <video class="w-[350px] h-[250px] rounded-lg" muted autoplay loop>
+        <div class="sm:w-1/2 lg:mt-[15px]  sm:mt-[-50px] flex justify-center pr-20 pb-10 video-content sm:pl-20">
+          <video class="  w-[350px] h-[250px] rounded-lg" muted autoplay loop>
             <source src="/Assets/Boomerang.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -139,7 +139,7 @@
         <!----------------------------------- Cards Sec ---------------------------------->
   
         <div class="flex justify-center items-center w-full md:mr-6">
-      <div class="grid  justify-center  grid-cols-1 md:grid-cols-3 gap-12 xl:gap-34">
+      <div class="grid  justify-center  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-12 xl:gap-34">
         <!-- Card 1 -->
         <div class="bg-gray-50 rounded-lg sm:w-60 w-80 shadow-md pl-3 pr-3 sm:h-96 h-80">
           <img
@@ -176,7 +176,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="bg-gray-50 rounded-lg sm:w-60 w-80 shadow-md pl-3 pr-3 sm:h-96 h-80">
+        <div class="bg-gray-50 rounded-lg sm:w-60 w-80 shadow-md pl-3 pr-3 sm:h-96 h-80 md:col-span-2 md:mx-auto lg:col-span-1">
           <img
             src="/Assets/Pics/onthego.png"
             alt="Feature 3"
